@@ -18,6 +18,8 @@ Why scrape web events? To use them as live wallpapers stupid nara!
 - At the end of the URL add `?param=val&param2=val2` (`http://localhost:30000/e20240525preview?fps=45&wall=siggy`)
 	- `fps` allow you to change render FPS (default is 60)
 	- `wall` some wallpapers have multiple pages that can be used as wallpapers, allowed values can be found in the [download table](#wallpapers-download)
+ - There is more advanced customizations possible like changing size and position of individual elements but its complicated so I might do a video instruction later if people need it
+ - If you want to delete somebody from the wallpaper, you can find source image in images directory and just make it transparent (don't change resolution)
 
 ## Wallpapers Download
 |Wallpaper|Download|Parameters|Preview|
