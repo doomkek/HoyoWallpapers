@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenshinWallpapers", "GenshinWallpapers\GenshinWallpapers.csproj", "{514BD977-443D-48F5-B054-1CBED2BDED1D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Launcher", "Launcher\Launcher.csproj", "{8E0E9F78-7C39-4EC5-8DF1-52D97562DC47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{514BD977-443D-48F5-B054-1CBED2BDED1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{514BD977-443D-48F5-B054-1CBED2BDED1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{514BD977-443D-48F5-B054-1CBED2BDED1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{514BD977-443D-48F5-B054-1CBED2BDED1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E0E9F78-7C39-4EC5-8DF1-52D97562DC47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E0E9F78-7C39-4EC5-8DF1-52D97562DC47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E0E9F78-7C39-4EC5-8DF1-52D97562DC47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E0E9F78-7C39-4EC5-8DF1-52D97562DC47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8273155C-5B85-4FAF-BFD6-8E7E1081587A}
+	EndGlobalSection
+EndGlobal
