@@ -1,6 +1,7 @@
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System.Runtime.CompilerServices;
+using System.Text;
 
 var config = new ConfigurationBuilder()
     .SetBasePath(Directory.GetCurrentDirectory())
@@ -45,8 +46,7 @@ app.MapGet("/{wallpaper}/{*filePath}", async context =>
     if (!int.TryParse(req.Query["fps"], out int fps))
         fps = 60;
 
-    if (!int.TryParse(req.Query["wallType"], out int wallType))
-        wallType = 1;
+    var wall = req.Query.ContainsKey("wall") ? req.Query["wall"][0] : "main";
 
     string path = "";
 
@@ -60,8 +60,19 @@ app.MapGet("/{wallpaper}/{*filePath}", async context =>
         string w = req.RouteValues["wallpaper"].ToString();
         res.Cookies.Append("wallpaper", w);
         var html = await File.ReadAllTextAsync(Path.Combine(Directory.GetCurrentDirectory(), "wallpapers", w, "index.html"));
-        html = html.Replace("//inject-kot", $"<script>\r\nkot = {{\r\n      host: \"{fullHost}/{w}\",\r\n      wallType: \"{wallType}\",\r\n      FPS: {fps}\r\n    }};\r\n</script>\r\n<style>#frame{{display:{(req.Query.ContainsKey("enableUI") ? "block" : "none")}!important;}} .me-toast{{display:none!important;}}</style>\r\n");
-        
+        StringBuilder sb = new StringBuilder();
+        sb.Append($"<script>\r\nkot = {{\r\n      host: \"{fullHost}/{w}\",\r\n      wall: \"{wall}\",\r\n      FPS: {fps},");
+        foreach (var q in req.Query)
+        {
+            if (q.Key.ToLower() == "wall" || q.Key.ToLower() == "fps")
+                continue;
+
+            sb.Append($"\r\n      {q.Key}: \"{q.Value}\",");
+        }
+        sb.Remove(sb.Length - 1, 1);
+        sb.Append("\r\n    };");
+        sb.Append($"\r\n</script>\r\n<style>#frame{{display:{(req.Query.ContainsKey("enableUI") ? "block" : "none")}!important;}} .me-toast{{display:none!important;}}</style>\r\n");
+        html = html.Replace("//inject-kot", sb.ToString());
         res.ContentType = "text/html";
         await res.WriteAsync(html);
         return;

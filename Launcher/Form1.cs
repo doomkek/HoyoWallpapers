@@ -13,6 +13,9 @@ public partial class Form1 : Form
 
     private void Form1_Load(object sender, EventArgs e)
     {
+        if (!Directory.Exists("wallpapers"))
+            Directory.CreateDirectory("wallpapers");
+
         if (args.Length > 0 && args[0] == "no-tray")
         {
             notifyIcon1.Visible = false;

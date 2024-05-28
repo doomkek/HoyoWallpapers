@@ -8,9 +8,6 @@ internal static class Program
     [STAThread]
     static void Main(params string[] args)
     {
-        if (!Directory.Exists("wallpapers"))
-            Directory.CreateDirectory("wallpapers");
-
         ApplicationConfiguration.Initialize();
         Application.Run(new Form1(args));
     }
