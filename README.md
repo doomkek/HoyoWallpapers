@@ -5,7 +5,7 @@ This application make hosting of scrapped genshin/hsr web events piece of caek.<
 Why scrape web events? To use them as live wallpapers stupid nara!
 
 ## Usage 
-- Download [release binary](https://github.com/doomkek/GenshinWallpapers/releases/tag/1.0)
+- Download [release binary](https://github.com/doomkek/GenshinWallpapers/releases)
 - Place it into a directory where you want to keep your wallpapers
 - Run `launcher.exe`
 - Download wallpaper from [download table](#wallpapers-download)
@@ -38,7 +38,7 @@ You can create it manually (scheduled task or add shortcut to windows autostart 
 
 ## >who asked?
 **Q: Why filesize so big?** <br>
-A: Application and all of it dependencies (even the runtime) was compiled into a single file so you don't have to install additiona .NET runtime to run it
+A: Application and all of it dependencies (even the runtime) was compiled into a single file so you don't have to install additional .NET runtime to run it
 
 **Q: Why wallpaper size so big?** <br>
 A: It is possible to trim all unnecesarry resources to save 100-150mb for each wallpaper but it takes too much time so I'm not doing it.
