@@ -15,9 +15,10 @@ Why scrape web events? To use them as live wallpapers stupid nara!
 
 ## Customization
 - You can pass different (optional) parameters thru URL 
-- At the end of the URL add `?param=val&param2=val2` (`http://localhost:30000/e20240525preview?fps=45&wall=siggy`)
+- At the end of the URL add `?param=val&param2=val2` (`http://localhost:30000/e20240525preview?fps=45&wall=siggy&width=3000`)
 	- `fps` allow you to change render FPS (default is 60)
 	- `wall` some wallpapers have multiple pages that can be used as wallpapers, allowed values can be found in the [download table](#wallpapers-download)
+ 	- `width` and `height` (default is 2500x1080) to change wallpaper resolution, but **keep in mind that aspect ratio of the wallpaper will stay the same** (objects on the scene might go out of bounds)
  - There is more advanced customizations possible like changing size and position of individual elements but its complicated so I might do a video instruction later if people need it
  - If you want to delete somebody from the wallpaper, you can find source image in images directory and just make it transparent (don't change resolution)
 
@@ -27,10 +28,14 @@ Why scrape web events? To use them as live wallpapers stupid nara!
 |e20240525preview|[MEGA](https://mega.nz/folder/6LYTGa7R#0XswrjmKle7zvsfVnvODcg)|wall:[clori,siggy,sethos,furina,alhaitham]|![jqqztv1j](https://github.com/doomkek/GenshinWallpapers/assets/141933494/d71d4ddc-4402-4d30-98d1-ad524520162e)|
 |e20240413preview|[MEGA](https://mega.nz/folder/TbxFSILa#Gh5AQ5ABpq0OgKzmx5_bHA)|wall:[boss,arle,lyney,baizhu,scara]|![mo14yfdr](https://github.com/doomkek/GenshinWallpapers/assets/141933494/0388873b-775a-4f89-8be5-3200c7b4a003)|
 |e20230107preview|[MEGA](https://mega.nz/folder/HXwFyLYL#Q2MT0x06LjEu9HWSGStoRA)|wall:[alhaitham,yaoyao,hutao,yelan,xiao,ayaka(pretty),lisa,ganyu]|![c1us20fs](https://github.com/doomkek/GenshinWallpapers/assets/141933494/de696797-95c2-47d1-855a-e31ad14218c4) ![nvmli35m](https://github.com/doomkek/GenshinWallpapers/assets/141933494/7c46f42f-46ca-439f-8dbb-3b3700d32a32)|
+|e20240426version|[MEGA](https://mega.nz/folder/vLglhLRa#v1xNx4KtjI4GkRtDHVyl8Q)|wall:[robin,boothill,topass,fuxua]|![z53jx1xs](https://github.com/doomkek/GenshinWallpapers/assets/141933494/1eb30c5a-71ac-4593-b5a7-d6da8bac12fb)|
+|e20240509robin|[MEGA](https://mega.nz/folder/KS5CjRRB#n4EWDXkZ-7DDdlNDvvMLHw)||![1yuq4gvr](https://github.com/doomkek/GenshinWallpapers/assets/141933494/c87c8633-5ef7-4d49-af4e-e69beaf96328)|
+
+
 
 ## How to use as a wallpaper 
 I'm using [Lively](https://www.rocksdanister.com/lively/), its open source and free, should work with any similar tool that allow you to use web page url as wallpaper.
-Create new wallpaper and point URL to `http://localhost:30000/{wallpaper_nane}`
+Create new wallpaper and point URL to `http://localhost:30000/{wallpaper_name}`
 
 ## Autorun
 Application can create a scheduled task that would launch it in the background (no window, no tray icon, process only visible in task manager), **you need to launch it as administrator** and click "Create Schedule Task" <br>
@@ -42,7 +47,7 @@ You can create it manually (scheduled task or add shortcut to windows autostart 
 A: Application and all of it dependencies (even the runtime) was compiled into a single file so you don't have to install additional .NET runtime to run it
 
 **Q: Why wallpaper size so big?** <br>
-A: It is possible to trim all unnecesarry resources to save 100-150mb for each wallpaper but it takes too much time so I'm not doing it.
+A: It is possible to trim all unnecesarry resources to save 10-20mb for each wallpaper but it takes too much time so I'm not doing it. <br>
 
 **Q: How to build from source?** <br>
 - Download source code
