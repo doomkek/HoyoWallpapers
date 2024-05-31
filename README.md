@@ -25,6 +25,7 @@ Why scrape web events? To use them as live wallpapers stupid nara!
 ## Wallpapers Download
 |Wallpaper|Download|Parameters|Preview|
 | ------------- | ------------- | ------------- | ------------- |
+|e20240531clorinde|[MEGA](https://mega.nz/folder/jSQQVL4A#3au8fkjF91mFzEF3CfiRYQ)||![udv0u0ov](https://github.com/doomkek/GenshinWallpapers/assets/141933494/e6fe01ce-0376-4d2c-bf1d-9d4cf1bf977a)|
 |e20240525preview|[MEGA](https://mega.nz/folder/6LYTGa7R#0XswrjmKle7zvsfVnvODcg)|wall:[clori,siggy,sethos,furina,alhaitham]|![jqqztv1j](https://github.com/doomkek/GenshinWallpapers/assets/141933494/d71d4ddc-4402-4d30-98d1-ad524520162e)|
 |e20240509robin|[MEGA](https://mega.nz/folder/KS5CjRRB#n4EWDXkZ-7DDdlNDvvMLHw)||![1yuq4gvr](https://github.com/doomkek/GenshinWallpapers/assets/141933494/c87c8633-5ef7-4d49-af4e-e69beaf96328)|
 |e20240413preview|[MEGA](https://mega.nz/folder/TbxFSILa#Gh5AQ5ABpq0OgKzmx5_bHA)|wall:[boss,arle,lyney,baizhu,scara]|![mo14yfdr](https://github.com/doomkek/GenshinWallpapers/assets/141933494/0388873b-775a-4f89-8be5-3200c7b4a003)|
