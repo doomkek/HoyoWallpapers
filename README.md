@@ -25,6 +25,9 @@ Why scrape web events? To use them as live wallpapers stupid nara!
 ## Wallpapers Download
 |Wallpaper|Download|Parameters|Preview|
 | ------------- | ------------- | ------------- | ------------- |
+|e20240817preview|[MEGA](https://mega.nz/folder/bWB1VDwT#etQaA2hsvdiy3GkrXlCzCw)|wall:[mualani,kinich,kachina,kazuha,raiden]|![cbvo4ba5](https://github.com/user-attachments/assets/85df5348-ecb7-4dc4-89ed-dd836b0bf9fb)|
+|e20240801emilie|[MEGA](https://mega.nz/folder/aPYRxKQS#5sbPVfsCfSOa_eBZLjX8UA)||![0vw3gn2d](https://github.com/user-attachments/assets/b80ff69f-46ac-4258-9fd4-89f0667c2946)|
+|e20240706preview|[MEGA](https://mega.nz/folder/zP42lCbL#bqbmzRC7TogiwMU4YySLqg)|wall:[emilie,nilou,navia,yelan,nilou_skin,kirara_skin]|![h3nw42wa](https://github.com/user-attachments/assets/228ecb2c-5126-45ba-9914-1b174c9e0674)|
 |e20240620sigewinne|[MEGA](https://mega.nz/folder/CXIADYxD#pjPXkZqgs5FSPpYY4nuolQ)||![ikhyf2qs](https://github.com/doomkek/GenshinWallpapers/assets/141933494/9fbc8ca5-d301-4164-bae2-c128b716d08d)|
 |e20240607version|[MEGA](https://mega.nz/folder/HSBQURjK#LwXxQ6oohI_CZI5FKz--hA)|wall:[firefly,jade,argenti,ruanmei]|![1my4zdl4](https://github.com/doomkek/GenshinWallpapers/assets/141933494/905c7bd1-496a-4444-8e86-f6e9948f3d75)|
 |e20240531clorinde|[MEGA](https://mega.nz/folder/jSQQVL4A#3au8fkjF91mFzEF3CfiRYQ)||![udv0u0ov](https://github.com/doomkek/GenshinWallpapers/assets/141933494/e6fe01ce-0376-4d2c-bf1d-9d4cf1bf977a)|
