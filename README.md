@@ -25,6 +25,7 @@ Why scrape web events? To use them as live wallpapers stupid nara!
 ## Wallpapers Download
 |Wallpaper|Download|Parameters|Preview|
 | ------------- | ------------- | ------------- | ------------- |
+|e20241004xilonen|[MEGA](https://mega.nz/folder/mKBxARSQ#gZxMu63SIYGlV5xDkyTZsQ)||![mpv-shot0001](https://github.com/user-attachments/assets/71aef56f-44dd-47da-bcf5-fe9cc23ab94e)|
 |e20240823mualani|[MEGA](https://mega.nz/folder/nWZnnDYK#APiIUB0m49JXvE-TdNVuhg)||![h5jx5jbx](https://github.com/user-attachments/assets/be33b08f-5eb6-4d6b-abe7-d14e22f0ae3b)|
 |e20240817preview|[MEGA](https://mega.nz/folder/bWB1VDwT#etQaA2hsvdiy3GkrXlCzCw)|wall:[mualani,kinich,kachina,kazuha,raiden,xilonen]|![cbvo4ba5](https://github.com/user-attachments/assets/85df5348-ecb7-4dc4-89ed-dd836b0bf9fb)|
 |e20240801emilie|[MEGA](https://mega.nz/folder/aPYRxKQS#5sbPVfsCfSOa_eBZLjX8UA)||![0vw3gn2d](https://github.com/user-attachments/assets/b80ff69f-46ac-4258-9fd4-89f0667c2946)|
