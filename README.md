@@ -1,11 +1,11 @@
-# Genshin and HSR Wallpapers
-This application make hosting of scrapped genshin/hsr web events piece of caek.<br>
+# Hoyo Wallpapers (Genshin, HSR, Zenless Zone Zero)
+This application make hosting of scrapped genshin/hsr/zzz web events piece of caek.<br>
 ![caek](https://github.com/doomkek/GenshinWallpapers/assets/141933494/6be667e9-d8db-4c56-9449-3971136c3199)
 
 Why scrape web events? To use them as live wallpapers stupid nara!
 
 ## Usage 
-- Download [release binary](https://github.com/doomkek/GenshinWallpapers/releases)
+- Download [release binary](https://github.com/doomkek/HoyoWallpapers/releases)
 - Place it into a directory where you want to keep your wallpapers
 - Run `launcher.exe`
 - Download wallpaper from [download table](#wallpapers-download)
@@ -25,6 +25,7 @@ Why scrape web events? To use them as live wallpapers stupid nara!
 ## Wallpapers Download
 |Wallpaper|Download|Parameters|Preview|
 | ------------- | ------------- | ------------- | ------------- |
+|e20241204collection|[MEGA](https://mega.nz/folder/jCBjWZ4K#UGH_nA-Yn262_wCV9N-ymw)|**!!!mandatory parameter!!!**: [enableUI]|![kpksr4w4](https://github.com/user-attachments/assets/def6454a-0332-4d39-a2b3-f15cf2ef6d1a)|
 |e20241004xilonen|[MEGA](https://mega.nz/folder/mKBxARSQ#gZxMu63SIYGlV5xDkyTZsQ)||![mpv-shot0001](https://github.com/user-attachments/assets/71aef56f-44dd-47da-bcf5-fe9cc23ab94e)|
 |e20240823mualani|[MEGA](https://mega.nz/folder/nWZnnDYK#APiIUB0m49JXvE-TdNVuhg)||![h5jx5jbx](https://github.com/user-attachments/assets/be33b08f-5eb6-4d6b-abe7-d14e22f0ae3b)|
 |e20240817preview|[MEGA](https://mega.nz/folder/bWB1VDwT#etQaA2hsvdiy3GkrXlCzCw)|wall:[mualani,kinich,kachina,kazuha,raiden,xilonen]|![cbvo4ba5](https://github.com/user-attachments/assets/85df5348-ecb7-4dc4-89ed-dd836b0bf9fb)|
@@ -67,6 +68,6 @@ A: It is possible to trim all unnecesarry resources to save 10-20mb for each wal
 **Q: How to build from source?** <br>
 - Download source code
 - Download and install SDK https://dotnet.microsoft.com/en-us/download/dotnet/8.0
-- Open directory with Launcher source code in cmd/terminal and execute `dotnet build` if you want to build into single file execute `dotnet publish -r win-x64 -p:PublishSingleFile=true --self-contained true` replace `win-x64` with apropriate runtime id https://learn.microsoft.com/en-us/dotnet/core/rid-catalog#known-rids (obviously its a windows application so only windows platform is supported but there is standalone ASP.NET project `GenshinWallpapers` that can be compiled for any other platform)
+- Open directory with Launcher source code in cmd/terminal and execute `dotnet build` if you want to build into single file execute `dotnet publish -r win-x64 -p:PublishSingleFile=true --self-contained true` replace `win-x64` with apropriate runtime id https://learn.microsoft.com/en-us/dotnet/core/rid-catalog#known-rids (obviously its a windows application so only windows platform is supported but there is standalone ASP.NET project `HoyoWallpapers` that can be compiled for any other platform)
 
-If you have more questions you can ask me at doomkek@tfwno.gf
+If you have more questions you can ask me at doomkek@proton.me
