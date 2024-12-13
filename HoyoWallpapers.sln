@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenshinWallpapers", "GenshinWallpapers\GenshinWallpapers.csproj", "{514BD977-443D-48F5-B054-1CBED2BDED1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HoyoWallpapers", "GenshinWallpapers\HoyoWallpapers.csproj", "{514BD977-443D-48F5-B054-1CBED2BDED1D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Launcher", "Launcher\Launcher.csproj", "{8E0E9F78-7C39-4EC5-8DF1-52D97562DC47}"
 EndProject

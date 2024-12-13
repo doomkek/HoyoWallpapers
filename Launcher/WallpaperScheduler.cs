@@ -12,7 +12,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 namespace Launcher;
 public static class WallpaperScheduler
 {
-    const string TASK_NAME = "GenshinWallpaper";
+    const string TASK_NAME = "HoyoWallpaper";
     static TaskService ts = new TaskService();
 
     public static void CreateScheduleTask()

@@ -63,9 +63,9 @@ namespace Launcher.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap firefox_HmKtP4kxhZ {
+        internal static System.Drawing.Bitmap _20241213_183432_firefox_2X2JInWfpB {
             get {
-                object obj = ResourceManager.GetObject("firefox_HmKtP4kxhZ", resourceCulture);
+                object obj = ResourceManager.GetObject("20241213_183432_firefox_2X2JInWfpB", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

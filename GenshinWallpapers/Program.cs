@@ -33,13 +33,29 @@ app.MapGet("/{wallpaper}/{*filePath}", async context =>
         await res.WriteAsync(@"{ ""data"": { ""barriey1_photo1"": """", ""barriey1_status1"": 0, ""barriey2_photo1"": ""https://act-upload.hoyoverse.com/event-ugc-review/2024/03/16/704814986/9604425886e37415b81e37f6905f1dda_746795246449716234.jpeg"", ""barriey2_photo2"": ""https://act-upload.hoyoverse.com/event-ugc-review/2024/03/16/704814986/19ee4f55000ebbf7939f4b2e16d3603f_3678371732281333504.jpeg"", ""barriey2_status1"": 2, ""barriey2_status2"": 2, ""barriey3_photo1"": """", ""barriey3_photo2"": """", ""barriey3_status1"": 0, ""barriey3_status2"": 0, ""code"": ""GCAHHSVZWN"", ""gender"": 2, ""tasks"": { ""data"": [{ ""status"": ""completed"", ""task_id"": 1 }, { ""status"": ""completed"", ""task_id"": 24 }, { ""status"": ""unfinish"", ""task_id"": 25 }, { ""status"": ""completed"", ""task_id"": 26 }, { ""status"": ""unfinish"", ""task_id"": 27 }, { ""status"": ""unfinish"", ""task_id"": 28 }], ""message"": """", ""retcode"": 0 } }, ""message"": ""0"", ""retcode"": 0 }");
         return;
     }
+    else if (req.Path.ToString().Contains("get_reserve"))
+    {
+        await res.WriteAsync(@"{""retcode"":0,""message"":""OK"",""data"":{""progress"":1918}}");
+        return;
+    }
+    else if (req.Path.ToString().Contains("/account/has_role"))
+    {
+        await res.WriteAsync(@"{""retcode"":0,""message"":""OK"",""data"":{""has_role"":true,""is_bind_uid"":false}}");
+        return;
+    }
     //event/merlin_v2/v3/flow/run/hk4e_global/e20240126rolewarm/1
     else if (req.Path.ToString().Contains("/device-fp/api/getExtList"))
     {
+        res.ContentType = "application/json";
         if (req.Query.ContainsKey("platform") && req.Query["platform"] == "4")
             await res.WriteAsync(@"{""retcode"":0,""message"":""OK"",""data"":{""code"":200,""msg"":""ok"",""ext_list"":[""userAgent"",""browserScreenSize"",""maxTouchPoints"",""isTouchSupported"",""browserLanguage"",""browserPlat"",""browserTimeZone"",""webGlRender"",""webGlVendor"",""numOfPlugins"",""listOfPlugins"",""screenRatio"",""deviceMemory"",""hardwareConcurrency"",""cpuClass"",""ifNotTrack"",""ifAdBlock"",""hasLiedLanguage"",""hasLiedResolution"",""hasLiedOs"",""hasLiedBrowser"",""canvas"",""webDriver"",""colorDepth"",""pixelRatio"",""packageName"",""packageVersion"",""webgl""],""pkg_list"":[],""pkg_str"":""/vK5WTh5SS3SAj8Zm0qPWg==""}}");
         else
             await res.WriteAsync(@"{ ""confirmBtn"": ""Confirm"", ""exitBtn"": ""Quit"", ""gpuAccDisable"": ""Please enable hardware acceleration in your browser to experience smoother animations."", ""ios17Err"": ""Failed to create WebGL. Close the process from the background or use another browser to take part in the event again. (webgl_err_toast)"", ""loadErr"": ""Resource loading error. Please refresh and try again. (load_err_toast)"", ""refreshBtn"": ""Refresh"", ""webglErr"": ""Your current browser version is not the latest, we recommend using other browsers to participate in the event (webgl_err_toast)"" }");
+        return;
+    }
+    else if (req.Path.ToString().Contains("/getFp"))
+    {
+        await res.WriteAsync(@"{""retcode"":0,""message"":""OK"",""data"":{""device_fp"":""22d1f440f8e71"",""code"":200,""msg"":""ok""}}");
         return;
     }
 
@@ -122,8 +138,8 @@ app.MapGet("/{wallpaper}/{*filePath}", async context =>
 // getconfig
 // 
 
-app.MapPost("/h5/upload", async context => await context.Response.WriteAsync("ok"));
-
+app.MapPost("/{wallpaper}/h5/upload", async context => await context.Response.WriteAsync("ok"));
+app.MapPost("/{wallpaper}/device-fp/api/getFp", async context => await context.Response.WriteAsync("ok"));
 
 //app.MapPut("/target", async context => { await context.Response.WriteAsync(@"{""data"":null,""message"":""0"",""retcode"":0}"); });
 

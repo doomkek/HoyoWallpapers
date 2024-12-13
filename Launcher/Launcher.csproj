@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GenshinWallpapers\GenshinWallpapers.csproj" />
+    <ProjectReference Include="..\GenshinWallpapers\HoyoWallpapers.csproj" />
   </ItemGroup>
 
   <ItemGroup>

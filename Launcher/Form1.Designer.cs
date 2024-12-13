@@ -53,8 +53,8 @@ partial class Form1
         // 
         // pictureBox1
         // 
-        pictureBox1.Image = Properties.Resources.firefox_HmKtP4kxhZ;
-        pictureBox1.InitialImage = (Image)resources.GetObject("pictureBox1.InitialImage");
+        pictureBox1.Image = Properties.Resources._20241213_183432_firefox_2X2JInWfpB;
+        pictureBox1.InitialImage = Properties.Resources._20241213_183432_firefox_2X2JInWfpB;
         pictureBox1.Location = new Point(12, 12);
         pictureBox1.Name = "pictureBox1";
         pictureBox1.Size = new Size(250, 231);
@@ -68,7 +68,7 @@ partial class Form1
         notifyIcon1.BalloonTipTitle = "Lol";
         notifyIcon1.ContextMenuStrip = TrayMenu;
         notifyIcon1.Icon = (Icon)resources.GetObject("notifyIcon1.Icon");
-        notifyIcon1.Text = "Genshin Wallpaper";
+        notifyIcon1.Text = "Hoyo Wallpaper";
         notifyIcon1.DoubleClick += notifyIcon1_DoubleClick;
         // 
         // TrayMenu
