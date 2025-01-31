@@ -25,6 +25,7 @@ Why scrape web events? To use them as live wallpapers stupid nara!
 ## Wallpapers Download
 |Wallpaper|Download|Parameters|Preview|
 | ------------- | ------------- | ------------- | ------------- |
+|e20250124year|[MEGA](https://mega.nz/folder/rPZU0bbK#godic442R7pQT-zlcH-E3Q)|**!!!mandatory parameter!!!**: [authkey=1], wall:[girls], zhu/ellen/nico/king/mibibi: [positionX,positionY,scaleX,scaleY,z-index(optional)] find example in MEGA link **readme.txt** and picture|![20250131_192627_chrome_dkuNuG2TtC](https://github.com/user-attachments/assets/196faca5-624c-4d81-bd32-e18effe05708)|
 |e20250117star|[MEGA](https://mega.nz/folder/Ke4VGYjT#eLDV_a5S8R7QSJH0oscmsA)|enableBlur, wall:[intro]|![yaubjdjf](https://github.com/user-attachments/assets/f0759a62-f2e9-4f32-ab36-c32048125298)|
 |e20241220card|[MEGA](https://mega.nz/folder/GaQSyRQL#lMYcq7GxYhLSkk44XbWUPw)||![k5may4gm](https://github.com/user-attachments/assets/6887edbe-af09-42a3-8dda-cbf701d1863a)|
 |e20241204collection|[MEGA](https://mega.nz/folder/jCBjWZ4K#UGH_nA-Yn262_wCV9N-ymw)|**!!!mandatory parameter!!!**: [enableUI]|![kpksr4w4](https://github.com/user-attachments/assets/def6454a-0332-4d39-a2b3-f15cf2ef6d1a)|
