@@ -25,15 +25,20 @@ Why scrape web events? To use them as live wallpapers stupid nara!
 ## Wallpapers Download
 |Wallpaper|Download|Parameters|Preview|
 | ------------- | ------------- | ------------- | ------------- |
+|e20250214version **NEW**|[MEGA](https://mega.nz/folder/aHpC3Lrb#f8hR8xIpNuumSwkV2SORiA)| read **readme.txt** in mega link | ![e20250214version_prev](https://github.com/user-attachments/assets/50b1a0db-ae7c-4629-b221-0cd8d670168a)|
 |e20250124year|[MEGA](https://mega.nz/folder/rPZU0bbK#godic442R7pQT-zlcH-E3Q)|**!!!mandatory parameter!!!**: [authkey=1], wall:[girls], zhu/ellen/nico/king/mibibi: [positionX,positionY,scaleX,scaleY,z-index(optional)] find example in MEGA link **readme.txt** and picture|![20250131_192627_chrome_dkuNuG2TtC](https://github.com/user-attachments/assets/196faca5-624c-4d81-bd32-e18effe05708)|
 |e20250122preview|[MEGA](https://mega.nz/folder/CC4nFCAZ#rEbvYNur-5fEk-RI_XbKFg)|**!!!mandatory parameter!!!**: [enableUI], wall:[astra,eve], read **readme.txt** in mega link on how to configure|![Preview](https://github.com/user-attachments/assets/0bfd20ed-65b2-42d3-82bb-550b1a069d56)|
 |e20250117star|[MEGA](https://mega.nz/folder/Ke4VGYjT#eLDV_a5S8R7QSJH0oscmsA)|enableBlur, wall:[intro]|![yaubjdjf](https://github.com/user-attachments/assets/f0759a62-f2e9-4f32-ab36-c32048125298)|
+|e20250101version **NEW**|[MEGA](https://mega.nz/folder/CCxWCKJa#l9f9HP1TmQl4qiXsoUI2YQ)| read **readme.txt** in mega link | ![e20250101version_prev](https://github.com/user-attachments/assets/71de6695-a87b-4dc8-9cb3-eddac9b97c98)|
 |e20241220card|[MEGA](https://mega.nz/folder/GaQSyRQL#lMYcq7GxYhLSkk44XbWUPw)||![k5may4gm](https://github.com/user-attachments/assets/6887edbe-af09-42a3-8dda-cbf701d1863a)|
 |e20241204collection|[MEGA](https://mega.nz/folder/jCBjWZ4K#UGH_nA-Yn262_wCV9N-ymw)|**!!!mandatory parameter!!!**: [enableUI]|![kpksr4w4](https://github.com/user-attachments/assets/def6454a-0332-4d39-a2b3-f15cf2ef6d1a)|
+|e20241011version **NEW**|[MEGA](https://mega.nz/folder/aPxkQY7L#9sqbictrIEhCpJMff7Gdrg)| read **readme.txt** in mega link | ![e20241011version_prev](https://github.com/user-attachments/assets/321cf0bc-93b2-4c3f-9c9b-2a34e8748dce)|
 |e20241004xilonen|[MEGA](https://mega.nz/folder/mKBxARSQ#gZxMu63SIYGlV5xDkyTZsQ)||![mpv-shot0001](https://github.com/user-attachments/assets/71aef56f-44dd-47da-bcf5-fe9cc23ab94e)|
+|e20240830version **NEW**|[MEGA](https://mega.nz/folder/WH4xRR7C#7epF5MhGkxdPwvxSRWXc5Q)| read **readme.txt** in mega link | ![e20240830version_prev](https://github.com/user-attachments/assets/ee37c205-3cfd-401e-8151-affdd38c63c3)|
 |e20240823mualani|[MEGA](https://mega.nz/folder/nWZnnDYK#APiIUB0m49JXvE-TdNVuhg)||![h5jx5jbx](https://github.com/user-attachments/assets/be33b08f-5eb6-4d6b-abe7-d14e22f0ae3b)|
 |e20240817preview|[MEGA](https://mega.nz/folder/bWB1VDwT#etQaA2hsvdiy3GkrXlCzCw)|wall:[mualani,kinich,kachina,kazuha,raiden,xilonen]|![cbvo4ba5](https://github.com/user-attachments/assets/85df5348-ecb7-4dc4-89ed-dd836b0bf9fb)|
 |e20240801emilie|[MEGA](https://mega.nz/folder/aPYRxKQS#5sbPVfsCfSOa_eBZLjX8UA)||![0vw3gn2d](https://github.com/user-attachments/assets/b80ff69f-46ac-4258-9fd4-89f0667c2946)|
+|e20240719version **NEW**|[MEGA](https://mega.nz/folder/SfpURCID#WlHjgNegtWtXCP8pr4gP2Q)| read **readme.txt** in mega link | ![e20240719version_prev](https://github.com/user-attachments/assets/925cd63f-b7e2-41d6-a975-0bceb251f960)|
 |e20240706preview|[MEGA](https://mega.nz/folder/zP42lCbL#bqbmzRC7TogiwMU4YySLqg)|wall:[emilie,nilou,navia,yelan,nilou_skin,kirara_skin]|![h3nw42wa](https://github.com/user-attachments/assets/228ecb2c-5126-45ba-9914-1b174c9e0674)|
 |e20240706dripfest|[MEGA](https://mega.nz/folder/neYlmYDT#g-NaYStw6TII8HrrYSyzYw)|**!!!mandatory parameter!!!**: [enableUI]|![NewCanvas1](https://github.com/user-attachments/assets/2fb32a79-ef57-4f03-af1e-089e87585884)|
 |e20240620sigewinne|[MEGA](https://mega.nz/folder/CXIADYxD#pjPXkZqgs5FSPpYY4nuolQ)||![ikhyf2qs](https://github.com/doomkek/GenshinWallpapers/assets/141933494/9fbc8ca5-d301-4164-bae2-c128b716d08d)|
